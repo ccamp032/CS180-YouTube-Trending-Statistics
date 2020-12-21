@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+{% block page_content %}
+	<div class='container' style="overflow: hidden;">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<h1 style="text-align: center; font-size: 400%; font-family: Palatino Linotype, Palatino, serif; line-height: 4.5em; color: white;">Welcome to Youtube Trending Statistic</h>
+		<body style="background-image: linear-gradient(to right, #445898 , #995A10);">
+			<h2 style="text-align: center; font-size: 150%; font-family: Palatino Linotype, Palatino, serif; color: white; position: relative; bottom: 40px; left: 50px;">This is our website which allows you to find youtube statistics</h2>
+			<h3 style="text-align: center; font-size: 150%; font-family: Palatino Linotype, Palatino, serif; color: white; position: relative; bottom: 20px; left: 20px; ">CS180 - Hackerman</h3>
+         	<link href="{% static 'css/main.css' %}" rel="stylesheet">
+         	<div class="bg"></div>
+			<div class="bg bg2"></div>
+			<div class="bg bg3"></div>
+	</div>
+{% endblock %}
